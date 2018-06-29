@@ -1,9 +1,9 @@
 [
   {
     "remote":      "github",
-    "repository":  "mdeejay/kernel_xiaomi_whyred",
+    "repository":  "AOSiP-Devices/kernel_xiaomi_whyred",
     "target_path": "kernel/xiaomi/whyred",
-    "branch":      "aligot-release"
+    "branch":      "oreo-mr1"
   },
   {
     "remote":      "github",
