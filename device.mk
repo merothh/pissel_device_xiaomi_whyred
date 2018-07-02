@@ -25,6 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 # Inherit proprietary files
 $(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
 
+# Inherit gapps
+$(call inherit-product, $(LOCAL_PATH)/gapps.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
